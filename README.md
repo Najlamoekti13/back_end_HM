@@ -5,6 +5,7 @@
 - endpoint_port:
         - 8080
 
+
 ## catatan penggunaan
 
 GET → meminta data dari server
@@ -31,6 +32,8 @@ Tujuannya untuk belajar membuat backend untuk aplikasi Android.
 - POST /users        → tambah user baru
 - PUT /users/:id     → update user
 - DELETE /users/:id  → hapus user
+
+NOTE: swagger digunakan untuk notification, yang lain nya menggunakan firestore emulator
 
 ## Catatan
 - Pastikan MySQL jalan sebelum run server
